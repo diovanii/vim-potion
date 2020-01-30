@@ -1,0 +1,56 @@
+*potion.txt* functionality for the potion programming language
+
+     ___      _   _              ~
+    / _ \___ | |_(_) ___  _ __   ~
+   / /_)/ _ \| __| |/ _ \| '_ \  ~
+  / ___/ (_) | |_| | (_) | | | | ~
+  \/    \___/ \__|_|\___/|_| |_| ~
+
+  Functionality for the Potion programming language.
+  Includes syntax highlighting, code folding, and more!
+
+===========================================================================
+CONTENTS                                            *PotionContents*
+
+    1. Usage ................ |PotionUsage|
+    2. Mappings ............. |PotionMappings|
+    3. License .............. |PotionLicense|
+    4. Contributing ......... |PotionContributing|
+
+===========================================================================
+Section 1: Usage                                       *PotionUsage*
+
+    This plugin with automatically provide syntax highlighting for
+    Potion files (files ending in .pn).
+
+===========================================================================
+Section 2: Mappings                                    *PotionMappings*
+
+    Compile and run the current file: >
+        <localdeader>r
+<
+     Show the bytecode: >
+        <localleader>b
+<
+
+    Navigate through function definitions: >
+        Backwards: []
+        Forward:   ][
+<
+
+    Navigate through sections: >
+        Backwards: [[
+        Forward:   ]]
+<
+
+===========================================================================
+Section 3: License                                     *PotionLicense*
+
+    This project is under the Mozilla Public License 2.0
+    http://mozilla.org/MPL/2.0/
+
+===========================================================================
+Section 4: Contributing                                *PotionContributing*
+
+    You can contribute to this project by making pull requests to this project
+    repository on GitHub: https://github.com/diovanii/vim-potion
